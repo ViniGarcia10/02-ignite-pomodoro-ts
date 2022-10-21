@@ -1,3 +1,6 @@
+⏳ 02-ignite-pomodoro-ts - Counter to usue with Pomodoro technique.
+
+Project developed during the ReactJS Ignite Course from Rocketseat.
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ViniGarcia10/02-ignite-pomodoro-ts?color=%2304D361">
