@@ -4,12 +4,12 @@ import {
   ReactNode,
   useEffect,
   useReducer,
-  useState
+  useState,
 } from 'react'
 import {
   addNewCycleAction,
   interruptCurrentCycleAction,
-  markCurrentCycleAsFinishedAction
+  markCurrentCycleAsFinishedAction,
 } from '../reducers/cycles/actions'
 import { Cycle, cyclesReducer } from '../reducers/cycles/reducer'
 interface CreateCycleData {
@@ -30,6 +30,7 @@ export const CyclesContext = createContext({} as CyclesContextType)
 interface CyclesContextProviderProps {
   children: ReactNode
 }
+
 export function CyclesContextProvider({
   children,
 }: CyclesContextProviderProps) {
